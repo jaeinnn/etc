@@ -1,10 +1,16 @@
 #include <stdio.h>
 
-void main(){
+int hrd(int n)
+{
+    if (n<=0)
+    return 1; 
+    else
+    printf("%d",n); 
     
-  int a = 10, b = 5;
-  
-  printf("%d\n", a>b);
-  printf("%d\n", a<b);
+    hrd(n-1);
   
 }
+ int main(){
+     hrd(5); 
+     return 0; 
+ }
