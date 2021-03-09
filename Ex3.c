@@ -2,6 +2,8 @@
 
 int hrd(int n)
 {
+
+//test
     if (n<=0)
     return 1; 
     else
