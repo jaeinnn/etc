@@ -9,4 +9,4 @@ int main()
         }
     }
     printf("%d %d %d" , i, j, i*j);
-}A
+}
